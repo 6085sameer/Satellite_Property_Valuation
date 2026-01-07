@@ -1,4 +1,4 @@
-Satellite Imagery-Based Property Valuation
+##Satellite Imagery-Based Property Valuation
 
 
 
@@ -18,7 +18,7 @@ image-based features extracted using a convolutional neural network.
 
 
 
-Overview
+##Overview
 
 
 
@@ -42,11 +42,11 @@ maximizing image-based performance.
 
 
 
-Dataset
+##Dataset
 
 
 
-Tabular Data
+###Tabular Data
 
 
 
@@ -62,7 +62,7 @@ Test dataset without price labels.
 
 
 
-Key features include:
+###Key features include:
 
 \- Bedrooms and bathrooms
 
@@ -78,7 +78,7 @@ Key features include:
 
 
 
-Generated Files
+##Generated Files
 
 
 
@@ -112,7 +112,7 @@ Due to file size constraints, the full satellite image dataset is not uploaded t
 
 
 
-Methodology
+##Methodology
 
 
 
@@ -158,11 +158,11 @@ Model performance is evaluated using RMSE and R² score on a validation split.
 
 
 
-Results Summary
+##Results Summary
 
 
 
-Tabular-only Model:
+###Tabular-only Model:
 
 \- RMSE: 130,112
 
@@ -170,7 +170,7 @@ Tabular-only Model:
 
 
 
-Multimodal Model (Tabular + Satellite Images):
+###Multimodal Model (Tabular + Satellite Images):
 
 \- RMSE: 194,147
 
@@ -186,7 +186,7 @@ and visual noise limit performance improvement in this implementation.
 
 
 
-Project Structure
+##Project Structure
 
 
 
@@ -234,7 +234,7 @@ Project documentation.
 
 
 
-Notes
+##Notes
 
 
 
@@ -246,7 +246,7 @@ maximum prediction accuracy. All code and analysis were implemented as part of t
 
 
 
-Submission Details
+##Submission Details
 
 
 
@@ -257,6 +257,7 @@ Prediction File: 24548005\_final.csv
 Report File: 24548005\_report.pdf
 
 Repository: Public GitHub repository
+
 
 
 
